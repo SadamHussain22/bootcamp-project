@@ -1,0 +1,149 @@
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+  
+  }
+  form{
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  input,select,button{
+    display: block;
+    width: 94%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  
+  
+  }
+  button{
+    background-color:#0066CC ;
+    color: #ccc;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .succsess-Message{
+    color:green
+  }
+  .card{
+    width: 20%;
+       display: inline-block;
+       border: 1px solid gray;
+       box-shadow: 2px 2px 20px black;
+       border-radius: 5px; 
+       margin: 2%;
+  }
+   
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+     color: #fff;
+     padding: 20px;
+     z-index: 100;
+  }
+  .navbar-text{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  .lagout-button{
+    background-color: blue;
+    
+    align-items:flex-start;
+    position:relative;
+    left:0px;
+    
+    width: 5%;
+    
+  }
+  .sidebar{
+    position: absolute;
+    top: 21%;
+    left: 0%;
+    width: 20%;
+    height: 90vh;
+    background: rgb(98, 88, 88);
+    
+   }
+   .sidebar h2{
+    color: white;
+    display: flex;
+    align-items: center;
+    align-items:flex-start;
+   }
+  
+   .sidebar .bar-menu li{
+    list-style-type: none;
+    
+   }
+   .sidebar .bar-menu li .link-menu{
+  text-decoration: none;
+  color: #fff;
+   
+  display: flex;
+  align-items: flex-start;
+   }
+   .texts{
+    width: 20vw;
+   }
+   .btnminus{
+    padding: 10px;
+    margin: 30px;
+    color: #aabdcf;
+    background-color: #0066CC;
+   }
+   .btnplus{
+    padding: 10px;
+     margin: 30px;
+     color: #aabdcf;
+     background-color: #0066CC;
+   }
+   .texts{
+    padding: 10px;
+    margin: 8px;
+     
+     
+   }
